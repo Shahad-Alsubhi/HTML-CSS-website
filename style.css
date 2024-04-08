@@ -63,6 +63,46 @@ body {
     align-items: center;
 }
 
+.header .container ul {
+
+    list-style: none;
+    background-color: #f6f6f6;
+    color: #000;
+    position: absolute;
+padding: 0px
+;    right: 5px;
+z-index: 8;
+display: none;
+width: 200px;
+
+
+}
+
+.header .container div:hover ul{
+    display: block;
+    transition: 0.3s;
+   
+
+
+}
+
+.header .container ul li{
+    border-bottom:rgb(225, 223, 223) solid 1px;
+    padding: 15px 115px 15px 15px;
+    font-size: 14px;
+    transition: 0.3s;
+
+}
+
+.header .container ul li a{
+text-decoration: none;
+color:#333;
+
+}
+
+.header .container ul li:hover{
+    padding-left: 25px;
+}
 /* end of header */
 
 /* start of wellcome section */
